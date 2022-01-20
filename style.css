@@ -96,14 +96,21 @@ html {
   transform-origin: bottom left;
 }
 
+
+
 .slideShow{
   display: flex;
-  flex-direction: row;
   position: relative;
-  top: 50px;
-  justify-content: center;
+  top: 55px;
+  justify-items: center;
+   width: 50%;
+  height: 50%;
+  margin: 0 auto;
   
 }
+
+
+
 
 .cards
 {
