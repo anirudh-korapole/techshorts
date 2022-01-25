@@ -8,11 +8,6 @@ html {
 
 
 
-/*.navbar {
-  background-color: #e5e5e5;
-}*/
-
-
 .mainHeading{
   display: flex;
   flex-direction: column;
@@ -69,9 +64,6 @@ html {
 }
 
 
-
-
-
 .nav-item {
   display: inline-block;
   position: relative;
@@ -97,98 +89,29 @@ html {
 }
 
 
-
-.slideShow{
-  display: flex;
-  position: relative;
-  top: 55px;
-  justify-items: center;
-   width: 50%;
-  height: 50%;
-  margin: 0 auto;
-  
+.img{
+  border-radius: 15px;
 }
 
 
-
-
-.cards
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  flex-wrap: wrap;
-/*  margin: 10px 10px 10px 10px;*/
-  margin: auto;
-  position: relative;
-  top: 150px;
-
-
-  
+.card{
+  box-shadow:0 0 21px rgba(33,33,33,.2); 
+  /* transition: transform 0.5s; */
+  /* transition: box-shadow .3s; */
+  border-radius: 1.5%;
+  outline: solid 2px #000000;
+  transition: outline 0.16s linear;
+  margin: 0.5em; /* Increased margin since the outline expands outside the element */
 }
-.product{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  top: 250px;
-/*  left: 20px;*/
-  align-self: flex-start;
-  text-align: center;
-
-
-}
-.card-image-top{
-  border-radius: 100%;
-}
-
-
-
-.about-card {
-   /*border-radius: 15px 50px 30px 5px;*/
-  transition: transform 0.5s;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  /*margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 50%;*/
+ 
+.card:hover {
+  /* box-shadow: 0 0 21px rgba(33,33,33,.2);  */
+  /* transform: scale(1.12); */
+  outline-width: 5px;
 
 }
 
-.about-card:hover {
-  transform: scale(1.12);
-
+.card-img-top{
+  width:100%;
+  height:auto;
 }
-
-.projects-card {
-
-  transition: transform 0.5s;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  /*margin-left: 10px;
-  margin-right: 10px;*/
-
-}
-
-.projects-card:hover {
-  transform: scale(1.12);
-}
-
-.contact-card {
-  transition: transform 0.5s;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  /*margin-left: 10px;
-  margin-right: 10px;*/
-}
-
-.contact-card:hover {
-  transform: scale(1.12);
-}
-
-
-
-
-
-
